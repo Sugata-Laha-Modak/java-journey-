@@ -2,9 +2,11 @@ public class Day8 {
     
     public static void main(String[] args) {
         int sum = add(5, 10);
+        int product = multiply(5, 10);
         System.out.println("Is 10 even? " + isEven(10));
         greet ("Sugata");
         System.out.println("The sum is: " + sum);
+        System.out.println("The product is: " + product);
         int marks[] = {85, 90, 78, 92, 88};
         int maxMarks = findMax(marks);
         System.out.println("The maximum marks are: " + maxMarks);
@@ -19,6 +21,9 @@ public class Day8 {
     }
     public static void greet (String name) {
         System.out.println("Hello, " + name + "!");
+    }
+    public static int multiply(int a, int b) {
+        return a * b;
     }
     public static int findMax(int[] arr) {
         int max = arr[0];
