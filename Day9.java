@@ -1,7 +1,10 @@
-public class Day9 {
+ public class Day9 {
     // Master Recursion
     public static void main(String[] args) {
         System.out.println(factorial(5));
+        System.out.println(sum(5));
+        System.out.println(fibonacci(6));
+        
     }
      // Factorial of n number 
     static int factorial(int n) {
